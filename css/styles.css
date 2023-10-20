@@ -745,11 +745,9 @@ img {
 }
 .modal-field {
   margin-bottom: 16px;
-  margin-bottom: 8px;
 }
 .modal-wrap {
   position: relative;
-  margin-bottom: 8px;
 }
 .modal-icon {
   position: absolute;
@@ -800,7 +798,7 @@ img {
   letter-spacing: 0.03em;
 }
 .modal-checkbox-div {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 .modal-checkbox {
   color: #8e8f99;
