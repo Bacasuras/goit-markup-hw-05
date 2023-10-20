@@ -744,7 +744,6 @@ img {
   display: block;
 }
 .modal-field {
-  margin-bottom: 16px;
   margin-bottom: 8px;
 }
 .modal-wrap {
@@ -799,8 +798,10 @@ img {
   line-height: 14px;
   letter-spacing: 0.03em;
 }
-.modal-checkbox-div {
+.modal-textarea {
   margin-bottom: 16px;
+}
+.modal-checkbox-div {
   margin-bottom: 24px;
 }
 .modal-checkbox {
