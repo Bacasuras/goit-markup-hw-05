@@ -28,12 +28,12 @@
           <a class="link logo" href="./index.html">Web<span class="header-color">Studio</span> </a>
           <ul class="nav-list list">
             <li class="header-item"
-              ><a class="link line-header-one" href="./index.html">Studio</a></li
+              ><a class="line-header-one link" href="./index.html">Studio</a></li
             >
             <li class="header-item"
-              ><a class="link line-header" href="./portfolio.html">Portfolio</a></li
+              ><a class="line-header link" href="./portfolio.html">Portfolio</a></li
             >
-            <li class="header-item"><a class="link line-header" href="">Contacts</a></li>
+            <li class="header-item"><a class="line-header link" href="">Contacts</a></li>
           </ul>
         </nav>
         <address class="address">
@@ -431,7 +431,7 @@
             <label class="modal-label" for="user-name">Name</label>
             <div class="modal-wrap">
               <input class="modal-input" name="username" type="text" id="user-name" />
-              <svg class="modal-icon" width="18" height="18">
+              <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
             </div>
@@ -458,7 +458,7 @@
             <label class="modal-label" for="user-comment">Comment</label>
             <textarea
               class="modal-area"
-              name="user-text"
+              name="user-comment"
               id="user-comment"
               name="user-comment"
               placeholder="Text input"
@@ -470,15 +470,16 @@
               type="checkbox"
               id="user-privacy"
               value="true"
+              name="user-privacy"
             />
             <label class="modal-checkbox" for="user-privacy">
               <span class="checkbox">
-                <svg class="checkbox-icon" width="10" height="8">
+                <svg class="checkbox-icon" width="8" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a href=""> <span class="span-privacy">Privacy Policy</span></a>
+              <a class="modal-link" href="">Privacy Policy</a>
             </label>
           </div>
           <button class="modal-btn-two" type="submit">Send</button>
