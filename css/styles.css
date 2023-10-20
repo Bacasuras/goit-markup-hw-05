@@ -748,6 +748,7 @@ img {
 }
 .modal-wrap {
   position: relative;
+  margin-bottom: 8px;
 }
 .modal-icon {
   position: absolute;
